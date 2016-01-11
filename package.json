@@ -1,0 +1,24 @@
+{
+  "name": "static-cms",
+  "version": "1.0.0",
+  "description": "https://github.com/Microsoft/TypeScriptSamples/tree/master/imageboard https://github.com/sahat/hackathon-starter",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeBelt/Static-CMS.git"
+  },
+  "author": "",
+  "private": true,
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/codeBelt/Static-CMS/issues"
+  },
+  "homepage": "https://github.com/codeBelt/Static-CMS#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "structure-js": "^0.10.3"
+  }
+}
