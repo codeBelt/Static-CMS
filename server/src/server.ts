@@ -1,5 +1,5 @@
-/// <reference path="../typings/node/node.d.ts" />
 /// <reference path="../typings/express/express.d.ts" />
+/// <reference path="../typings/node/node.d.ts" />
 
 import * as fs from "fs";
 import * as express from "express";
@@ -22,12 +22,12 @@ class Server {
         //
         //    console.log("The file was saved!");
         //});
-console.log("fs", fs);
-
-        //fs.writeFile('message.txt', 'Hello Node.js', (err) => {
-        //    if (err) throw err;
-        //    console.log('It\'s saved!');
-        //});
+//console.log("fs", fs);
+console.log("express", express);
+        fs.writeFile('message.txt', 'Hello Node.js', (err) => {
+            if (err) throw err;
+            console.log('It\'s saved!');
+        });
     }
 
 

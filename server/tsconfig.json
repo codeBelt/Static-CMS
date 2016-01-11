@@ -22,6 +22,7 @@
         "!node_modules/**"
     ],
     "files": [
+        "./src/server.ts",
         "./typings/tsd.d.ts"
     ],
     "exclude": [],
